@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 18
+  controlID: 20
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 65
+  controlID: 81
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 66
+  controlID: 82
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,23 +363,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Desktop\Schule\HS Fresenius\Game Design\Grundlagen
     des Game Designs\GameDesign2dEscape\2dEscapeGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e2650000
-    m_LastClickedID: 26082
-    m_ExpandedIDs: 00000000e265000000ca9a3b
+    scrollPos: {x: 0, y: 14.200012}
+    m_SelectedIDs: 14660000
+    m_LastClickedID: 26132
+    m_ExpandedIDs: 00000000e26500001c660000f066000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ca910000f45f0000b45f0000d45f0000ae5f0000c45f0000d85f0000f25f000004600000b2610000866100005c6100003a6200000ceaffff00000000ca5f000010630000d2c00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -537,7 +537,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
+      m_ExpandedIDs: 6c97fffffea3ffff96a9ffffd8a9ffff70afffff2eb0ffff0eb6ffff52c0ffff9ec9ffff36caffffe0cfffff20d0ffff66d0ffff3af3ffffccf3ffffc6f4ffffe6f4ffff2cfbffff90da0000a2da0000f2e200003ae30000c6e60000e0e6000020e9000068e90000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -660,7 +660,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -808,9 +808,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.8981652, y: 47.529873, z: -101.696045}
+    m_Target: {x: 8.648566, y: 51.34538, z: -100.78281}
     speed: 2
-    m_Value: {x: 4.381114, y: 46.010754, z: -101.664345}
+    m_Value: {x: 8.648566, y: 51.34538, z: -100.78281}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -861,9 +861,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 73.60893
+    m_Target: 77.57071
     speed: 2
-    m_Value: 70.43917
+    m_Value: 77.57071
   m_Ortho:
     m_Target: 1
     speed: 2
