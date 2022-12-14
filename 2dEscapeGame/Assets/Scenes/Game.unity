@@ -510,6 +510,27 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 729465983}
   - {fileID: 487599457}
+--- !u!114 &114021083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114021078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4202a8ab2b14b2a83bf4e5dde68fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 5
+  angle: 45
+  playerRef: {fileID: 0}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  obstructionLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &146382402
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,6 +698,27 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 238391408}
   - {fileID: 1930556232}
+--- !u!114 &437614398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437614393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4202a8ab2b14b2a83bf4e5dde68fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 6
+  angle: 300
+  playerRef: {fileID: 0}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  obstructionLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &479709042 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3323865047250114925, guid: 47dc0c27726fd3141b0e00d43a3abac8, type: 3}
@@ -720,6 +762,27 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 1441560091}
   - {fileID: 2819713}
+--- !u!114 &479709047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479709042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4202a8ab2b14b2a83bf4e5dde68fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 5
+  angle: 45
+  playerRef: {fileID: 0}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  obstructionLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &487599456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1724,6 +1787,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &949721876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949721871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4202a8ab2b14b2a83bf4e5dde68fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 5
+  angle: 45
+  playerRef: {fileID: 0}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  obstructionLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1163340876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,6 +2010,27 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 1163340877}
   - {fileID: 205952878}
+--- !u!114 &1355252645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355252640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4202a8ab2b14b2a83bf4e5dde68fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 5
+  angle: 45
+  playerRef: {fileID: 0}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  obstructionLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1441560090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,6 +2258,27 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 1870047461}
   - {fileID: 322950020}
+--- !u!114 &1612622013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612622008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4202a8ab2b14b2a83bf4e5dde68fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 5
+  angle: 45
+  playerRef: {fileID: 0}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  obstructionLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1001 &1758421087
 PrefabInstance:
   m_ObjectHideFlags: 0
