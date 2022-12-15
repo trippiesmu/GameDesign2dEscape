@@ -4003,6 +4003,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8843917880378053348, guid: 47dc0c27726fd3141b0e00d43a3abac8, type: 3}
   m_PrefabInstance: {fileID: 1758421087}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &949721878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949721871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9a874c21c6fea4c89db4c96856ea17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotDistance: 1
+  target: {fileID: 387148444745326740, guid: e31b301bc5f34455c86be943642a88a4, type: 3}
+  projectile: {fileID: 0}
+  timeBetweenShots: 0
 --- !u!1 &981578675 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6155197162010560104, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
