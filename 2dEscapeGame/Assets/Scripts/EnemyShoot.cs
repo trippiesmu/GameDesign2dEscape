@@ -9,20 +9,15 @@ public class EnemyShoot : MonoBehaviour
     public GameObject projectile;
     public float timeBetweenShots;
     private float nextShotTime;
+    public AudioSource Enemyshoot;
 
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void update()
-    {
-        if(Vector2.Distance(transform.position, target.position)<shotDistance)
+        if(collision.tag == "Player")
         {
             Instantiate(projectile, transform.position, Quaternion.identity);
-            nextShotTime = Time.time + timeBetweenShots;
+            Enemyshoot.Play();
         }
+ 
     }
 }

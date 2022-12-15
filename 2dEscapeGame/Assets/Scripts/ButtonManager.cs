@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
+
+    public AudioSource ButtonSound; 
     // Start is called before the first frame update
     void Start()
     {
@@ -19,16 +21,19 @@ public class ButtonManager : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        ButtonSound.Play();
     }
 
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        ButtonSound.Play();
     }
 
     public void QuitGame ()
     {
         Debug.Log("QUIT!");
         Application.Quit();
+        ButtonSound.Play();
     }
 }

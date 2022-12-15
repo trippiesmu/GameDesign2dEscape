@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fin
+  - patrolpoint
+  - enemy
   layers:
   - Default
   - TransparentFX
