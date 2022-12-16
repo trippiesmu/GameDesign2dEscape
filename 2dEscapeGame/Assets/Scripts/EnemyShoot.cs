@@ -11,6 +11,17 @@ public class EnemyShoot : MonoBehaviour
     private float nextShotTime;
     public AudioSource Enemyshoot;
 
+
+    void start ()
+    {
+
+    }
+
+    void Update () 
+    {
+       
+    }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")

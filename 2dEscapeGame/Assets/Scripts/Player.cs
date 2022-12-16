@@ -14,9 +14,18 @@ public class Player : MonoBehaviour
     public float speed = 10f;
     bool facingLeft = true;
 
+    Animator animator;
+    string currentAnimState;
+    const string PLAYER_IDLE = "Player_Idle";
+    const string PLAYER_WALK_LEFT = "Walk_Left";
+    const string PLAYER_WALK_RIGHT = "Walk_Right";
+    const string PLAYER_WALK_UP = "Walk_Front";
+    const string PLAYER_WALK_DOWN = "Walk_Back";
+
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
+        animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,14 +34,6 @@ public class Player : MonoBehaviour
         inputHorizontal = Input.GetAxisRaw("Horizontal");
         inputVertical = Input.GetAxisRaw("Vertical");
 
-        if (inputHorizontal > 0 && facingLeft)
-        {
-            Flip();
-        }
-        if (inputHorizontal < 0 && !facingLeft)
-        {
-            Flip();
-        }
         {
             Vector3 pos = transform.position;
 
@@ -51,6 +52,26 @@ public class Player : MonoBehaviour
             if (Input.GetKey("a"))
             {
                 pos.x -= speed * Time.deltaTime;
+            }
+            if (Input.GetAxisRaw("Horizontal") == 0 && Input.GetAxisRaw("Vertical") == 0)
+            {
+                ChangeAnimationState("Player_Idle");
+            }
+            if (Input.GetAxisRaw("Horizontal") > 0)
+            {
+                ChangeAnimationState(PLAYER_WALK_RIGHT);
+            }
+            else if (Input.GetAxisRaw("Horizontal") < 0)
+            {
+                ChangeAnimationState(PLAYER_WALK_LEFT);
+            }
+            else if (Input.GetAxisRaw("Vertical") > 0)
+            {
+                ChangeAnimationState(PLAYER_WALK_UP);
+            }
+            else if (Input.GetAxisRaw("Vertical") < 0)
+            {
+                ChangeAnimationState(PLAYER_WALK_DOWN);
             }
 
             transform.position = pos;
@@ -72,5 +93,19 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene("Game Over");
         }
+    }
+    void ChangeAnimationState(string newState)
+    {
+        //stop animation from interrupting itself
+        if (currentAnimState == newState)
+        {
+            return;
+        }
+
+        //Play new anitmation
+        animator.Play(newState);
+
+        currentAnimState = newState;
+
     }
 }
