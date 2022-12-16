@@ -66,4 +66,11 @@ public class Player : MonoBehaviour
 
         facingLeft = !facingLeft;
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "bullet")
+        {
+            SceneManager.LoadScene("Game Over");
+        }
+    }
 }

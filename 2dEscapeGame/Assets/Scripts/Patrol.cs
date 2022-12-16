@@ -38,11 +38,4 @@ public class Patrol : MonoBehaviour
         }
 
     }
-    private void OnTriggerEnter2D(Collider2D enemy)
-    {
-        if (enemy.tag == "patrolpoint")
-        {
-            EnemyMovement.Play();
-        }
-    }
 }

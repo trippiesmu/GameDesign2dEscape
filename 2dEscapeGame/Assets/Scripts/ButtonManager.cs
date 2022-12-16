@@ -20,7 +20,7 @@ public class ButtonManager : MonoBehaviour
     }
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("Game");
         ButtonSound.Play();
     }
 
