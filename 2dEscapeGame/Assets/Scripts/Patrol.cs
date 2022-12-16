@@ -7,6 +7,7 @@ public class Patrol : MonoBehaviour
     public float speed;
     private float waitTime;
     public float startWaitTime;
+    public AudioSource EnemyMovement;
 
     public Transform[] patrolPoints;
     private int randomSpot;
@@ -21,7 +22,7 @@ public class Patrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       transform.position = Vector2.MoveTowards(transform.position, patrolPoints[randomSpot].position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, patrolPoints[randomSpot].position, speed * Time.deltaTime);
 
         if (Vector2.Distance(transform.position, patrolPoints[randomSpot].position) < 0.2f)
         {
@@ -34,6 +35,14 @@ public class Patrol : MonoBehaviour
             {
                 waitTime -= Time.deltaTime;
             }
+        }
+
+    }
+    private void OnTriggerEnter2D(Collider2D enemy)
+    {
+        if (enemy.tag == "patrolpoint")
+        {
+            EnemyMovement.Play();
         }
     }
 }
