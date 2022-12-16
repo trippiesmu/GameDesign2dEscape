@@ -8,6 +8,7 @@ TagManager:
   - patrolpoint
   - enemy
   - bullet
+  - patrolpoint2
   layers:
   - Default
   - TransparentFX

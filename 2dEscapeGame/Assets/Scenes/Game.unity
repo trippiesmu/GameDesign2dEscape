@@ -185,10 +185,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2819713}
   - component: {fileID: 2819714}
-  - component: {fileID: 2819715}
   m_Layer: 0
   m_Name: Point 12
-  m_TagString: patrolpoint
+  m_TagString: patrolpoint2
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -221,30 +220,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.012428284}
+  m_Offset: {x: -5.4795647, y: 0.012428284}
   serializedVersion: 2
-  m_Radius: 0.1767807
---- !u!50 &2819715
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2819712}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 2.30414
 --- !u!1001 &7783792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -537,6 +515,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3191049178116415341, guid: ce0c9a8c838858246a59dfb8f3edb7cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.04
+      objectReference: {fileID: 0}
     - target: {fileID: 3714605365086082228, guid: ce0c9a8c838858246a59dfb8f3edb7cc, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -553,9 +535,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3963923638520126622, guid: ce0c9a8c838858246a59dfb8f3edb7cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 25.44
+      objectReference: {fileID: 0}
     - target: {fileID: 4013161524648750976, guid: ce0c9a8c838858246a59dfb8f3edb7cc, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177673917465087474, guid: ce0c9a8c838858246a59dfb8f3edb7cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 68.04
       objectReference: {fileID: 0}
     - target: {fileID: 4196763713223913799, guid: ce0c9a8c838858246a59dfb8f3edb7cc, type: 3}
       propertyPath: m_Layer
@@ -1172,7 +1162,6 @@ GameObject:
   m_Component:
   - component: {fileID: 146382403}
   - component: {fileID: 146382404}
-  - component: {fileID: 146382405}
   m_Layer: 0
   m_Name: Point 1
   m_TagString: patrolpoint
@@ -1208,30 +1197,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.02127552}
+  m_Offset: {x: 4.2875175, y: -0.14640999}
   serializedVersion: 2
-  m_Radius: 0.063853264
---- !u!50 &146382405
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146382402}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 0.29081345
 --- !u!1 &205952877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,7 +1210,6 @@ GameObject:
   m_Component:
   - component: {fileID: 205952878}
   - component: {fileID: 205952879}
-  - component: {fileID: 205952880}
   m_Layer: 0
   m_Name: Point 10
   m_TagString: patrolpoint
@@ -1278,30 +1245,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 7.7573442, y: 0}
   serializedVersion: 2
-  m_Radius: 0.1652832
---- !u!50 &205952880
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205952877}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 3.324092
 --- !u!1 &238391407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,7 +1258,6 @@ GameObject:
   m_Component:
   - component: {fileID: 238391408}
   - component: {fileID: 238391409}
-  - component: {fileID: 238391410}
   m_Layer: 0
   m_Name: Point 3
   m_TagString: patrolpoint
@@ -1348,30 +1293,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 3.5977, y: 0}
   serializedVersion: 2
-  m_Radius: 0.2088623
---- !u!50 &238391410
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238391407}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 0.9423733
 --- !u!1 &277689848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8274587623385537472, guid: c31a6843486e0a540a1a0e1536961433, type: 3}
@@ -1538,7 +1462,6 @@ GameObject:
   m_Component:
   - component: {fileID: 322950020}
   - component: {fileID: 322950021}
-  - component: {fileID: 322950022}
   m_Layer: 0
   m_Name: Point 6
   m_TagString: patrolpoint
@@ -1574,30 +1497,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.01876831}
+  m_Offset: {x: 5.369748, y: 0.01876831}
   serializedVersion: 2
-  m_Radius: 0.18090057
---- !u!50 &322950022
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322950019}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 1.2959509
 --- !u!1 &335657363 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2639127551311859826, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
@@ -2618,10 +2520,9 @@ GameObject:
   m_Component:
   - component: {fileID: 487599457}
   - component: {fileID: 487599458}
-  - component: {fileID: 487599459}
   m_Layer: 0
   m_Name: Point 8
-  m_TagString: patrolpoint
+  m_TagString: patrolpoint2
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2654,30 +2555,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.013938904}
+  m_Offset: {x: -5.428671, y: 0.013938904}
   serializedVersion: 2
-  m_Radius: 0.17939758
---- !u!50 &487599459
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487599456}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 1.6599445
 --- !u!1 &489058274 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4176716966962217788, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
@@ -3059,7 +2939,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3538,6 +3418,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1600410539064281296, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600410539064281296, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 273.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2151886632292243767, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -3598,6 +3486,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3329280874345085064, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 3845950148028588890, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -3605,6 +3497,14 @@ PrefabInstance:
     - target: {fileID: 5271320289898670725, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5536543874366722993, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5536543874366722993, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.1
       objectReference: {fileID: 0}
     - target: {fileID: 6031236300589566371, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
       propertyPath: m_Layer
@@ -3629,6 +3529,14 @@ PrefabInstance:
     - target: {fileID: 7200561586623021071, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
       propertyPath: m_SortingOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8456455041523272691, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8456455041523272691, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 162.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8942cf5d5f6813d499278e7eb0978d2e, type: 3}
@@ -4146,6 +4054,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2866610333239128189, guid: 6e0436151053ef34fa779f3120d45214, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161497677535129150, guid: 6e0436151053ef34fa779f3120d45214, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.27
+      objectReference: {fileID: 0}
     - target: {fileID: 3420676218265318887, guid: 6e0436151053ef34fa779f3120d45214, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -4410,10 +4326,9 @@ GameObject:
   m_Component:
   - component: {fileID: 728266432}
   - component: {fileID: 728266433}
-  - component: {fileID: 728266434}
   m_Layer: 0
   m_Name: Point 2
-  m_TagString: patrolpoint
+  m_TagString: patrolpoint2
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4446,30 +4361,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.008797646}
+  m_Offset: {x: -3.9686155, y: 0.012544632}
   serializedVersion: 2
-  m_Radius: 0.19205952
---- !u!50 &728266434
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 728266431}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 0.38733387
 --- !u!1 &729465982
 GameObject:
   m_ObjectHideFlags: 0
@@ -4480,7 +4374,6 @@ GameObject:
   m_Component:
   - component: {fileID: 729465983}
   - component: {fileID: 729465984}
-  - component: {fileID: 729465985}
   m_Layer: 0
   m_Name: Point 7
   m_TagString: patrolpoint
@@ -4516,30 +4409,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.0451622}
+  m_Offset: {x: 6.3745775, y: -0.0451622}
   serializedVersion: 2
-  m_Radius: 0.15376663
---- !u!50 &729465985
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729465982}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 2.1278296
 --- !u!1 &732082041 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5584340415037243015, guid: c31a6843486e0a540a1a0e1536961433, type: 3}
@@ -4610,7 +4482,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 2.0052135}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4621,7 +4493,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.59, y: 6.821666}
+  m_Size: {x: 9.59, y: 2.8112388}
   m_EdgeRadius: 0
 --- !u!50 &750511592
 Rigidbody2D:
@@ -5747,10 +5619,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1163340877}
   - component: {fileID: 1163340878}
-  - component: {fileID: 1163340879}
   m_Layer: 0
   m_Name: Point 9
-  m_TagString: patrolpoint
+  m_TagString: patrolpoint2
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5783,30 +5654,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.009773254}
+  m_Offset: {x: -6.5539894, y: 0.009773254}
   serializedVersion: 2
-  m_Radius: 0.1773758
---- !u!50 &1163340879
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1163340876}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 2.5625973
 --- !u!1 &1191750726
 GameObject:
   m_ObjectHideFlags: 0
@@ -7033,7 +6883,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1441560091}
   - component: {fileID: 1441560092}
-  - component: {fileID: 1441560093}
   m_Layer: 0
   m_Name: Point 11
   m_TagString: patrolpoint
@@ -7069,30 +6918,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.0062179565}
+  m_Offset: {x: 7.1986437, y: 0.0062179565}
   serializedVersion: 2
-  m_Radius: 0.18300629
---- !u!50 &1441560093
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1441560090}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 3.2558603
 --- !u!1 &1515002854 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2799745581319801150, guid: c31a6843486e0a540a1a0e1536961433, type: 3}
@@ -7431,6 +7259,46 @@ PrefabInstance:
     - target: {fileID: 6888801934773969310, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124321029398318612, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
+      propertyPath: m_Points.Array.data[0].x
+      value: -1.5017564
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124321029398318612, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
+      propertyPath: m_Points.Array.data[0].y
+      value: 0.73835754
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124321029398318612, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
+      propertyPath: m_Points.Array.data[1].x
+      value: -1.2614369
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124321029398318612, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
+      propertyPath: m_Points.Array.data[1].y
+      value: -2.4648895
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124321029398318612, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
+      propertyPath: m_Points.Array.data[2].x
+      value: 1.4621649
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124321029398318612, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
+      propertyPath: m_Points.Array.data[2].y
+      value: -2.4549255
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124321029398318612, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
+      propertyPath: m_Points.Array.data[3].x
+      value: 1.6949464
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124321029398318612, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
+      propertyPath: m_Points.Array.data[3].y
+      value: 0.6885071
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124321029398318612, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
+      propertyPath: m_Points.Array.data[4].x
+      value: -1.4652641
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124321029398318612, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
+      propertyPath: m_Points.Array.data[4].y
+      value: 0.68455505
       objectReference: {fileID: 0}
     - target: {fileID: 7151137134968160534, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
       propertyPath: m_Layer
@@ -8589,10 +8457,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1870047461}
   - component: {fileID: 1870047462}
-  - component: {fileID: 1870047463}
   m_Layer: 0
   m_Name: Point 5
-  m_TagString: patrolpoint
+  m_TagString: patrolpoint2
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8625,30 +8492,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.0109062195}
+  m_Offset: {x: -5.464799, y: 0.0109062195}
   serializedVersion: 2
-  m_Radius: 0.18368912
---- !u!50 &1870047463
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870047460}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 1.2841101
 --- !u!1 &1873158843 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7151137134968160534, guid: 9e0ef26e16710fe48b56a920bb5004dd, type: 3}
@@ -8815,10 +8661,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1930556232}
   - component: {fileID: 1930556233}
-  - component: {fileID: 1930556234}
   m_Layer: 0
   m_Name: Point 4
-  m_TagString: patrolpoint
+  m_TagString: patrolpoint2
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8851,30 +8696,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.0066165924}
+  m_Offset: {x: -4.1429815, y: -0.0066165924}
   serializedVersion: 2
-  m_Radius: 0.18901253
---- !u!50 &1930556234
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930556231}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Radius: 0.8132963
 --- !u!1 &1942332087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2384673929548911073, guid: c31a6843486e0a540a1a0e1536961433, type: 3}
@@ -9673,6 +9497,10 @@ PrefabInstance:
     - target: {fileID: 387148444745326745, guid: e31b301bc5f34455c86be943642a88a4, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 387148444745326746, guid: e31b301bc5f34455c86be943642a88a4, type: 3}
+      propertyPath: speed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e31b301bc5f34455c86be943642a88a4, type: 3}

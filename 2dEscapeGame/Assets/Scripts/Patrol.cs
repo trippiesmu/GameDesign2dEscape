@@ -18,6 +18,8 @@ public class Patrol : MonoBehaviour
     string currentAnimState;
     const string ENEMY_IDLE = "Enemy_Idle";
     const string ENEMY_SHOOT = "Shoot_Front";
+    const string ENEMY_WALK_LEFT = "Enemy_Walk_Left";
+    const string ENEMY_WALK_RIGHT = "Enemy_Walk_Right";
     
 
     // Start is called before the first frame update
@@ -43,20 +45,18 @@ public class Patrol : MonoBehaviour
             else
             {
                 waitTime -= Time.deltaTime;
+                ChangeAnimationState(ENEMY_IDLE);
             }
         }
         
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "patrolpoint")
-        {
-            Flip();
-        }
         if (collision.tag == "Player")
         {
             ChangeAnimationState(ENEMY_SHOOT);
         }
+
     }
     void Flip()
     {
@@ -79,6 +79,18 @@ public class Patrol : MonoBehaviour
 
         currentAnimState = newState;
 
+    }
+    void OnTriggerExit2D (Collider2D collision)
+    {
+        if (collision.tag == "patrolpoint")
+        {
+            ChangeAnimationState(ENEMY_WALK_LEFT);
+
+        }
+        if (collision.tag == "patrolpoint2")
+        {
+            ChangeAnimationState(ENEMY_WALK_RIGHT);
+        }
     }
 
     

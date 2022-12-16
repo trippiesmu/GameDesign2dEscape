@@ -26,7 +26,7 @@ public class ButtonManager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Game");
         ButtonSound.Play();
     }
 

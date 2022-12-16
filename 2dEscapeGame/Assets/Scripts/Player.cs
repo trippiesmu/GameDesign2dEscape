@@ -67,11 +67,11 @@ public class Player : MonoBehaviour
             }
             else if (Input.GetAxisRaw("Vertical") > 0)
             {
-                ChangeAnimationState(PLAYER_WALK_UP);
+                ChangeAnimationState(PLAYER_WALK_DOWN);
             }
             else if (Input.GetAxisRaw("Vertical") < 0)
             {
-                ChangeAnimationState(PLAYER_WALK_DOWN);
+                ChangeAnimationState(PLAYER_WALK_UP);
             }
 
             transform.position = pos;
